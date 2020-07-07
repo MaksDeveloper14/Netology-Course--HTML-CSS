@@ -1,0 +1,214 @@
+html {
+  font-family: helvetica, sans-serif;
+  font-size: 62.5%;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  position: relative;
+  padding: 30px 40px;
+}
+
+.notice {
+  font-style: italic;
+  font-size: 1.4em;
+  line-height: 1.2;
+}
+
+.ex1 {
+  margin-bottom: 50px;
+  font-size: 1.2em;
+}
+
+.ex1 header {
+  font-size: 1.5em;
+}
+
+.ex1 header h1 {
+  font-size: 4rem;
+}
+
+.ex header span {
+  font-size: 2em;
+}
+.ex header .marked {
+  font-size: 15px;
+}
+
+.ex1 article {
+  font-size: 20px;
+}
+
+.ex1 article strong {
+  font-size: 66.667%;
+}
+
+.ex1 article p {
+  font-size: 125%;
+}
+
+.ex1 article > p {
+  font-size: 80%;
+}
+.ex1 article .marked {
+  font-size: 250%;
+}
+
+.ex1 article blockquote {
+  font-size: 0.5em;
+}
+
+.ex1 .footer {
+  font-size: 20px;
+}
+
+.ex1 footer {
+  font-size: 16px;
+}
+
+.ex1 footer blockquote {
+  font-size: 1.5em;
+}
+
+.ex1 footer p {
+  font-size: 50%;
+}
+
+/* -------Решение 1-------- */
+
+.ex1 header h1 strong {
+  font-size: 50%;
+}
+
+
+.ex1 article p strong {
+  font-size: 1.25em;
+}
+
+.ex1 article blockquote p strong {
+  font-size: 0.8em;
+}
+
+
+.ex1 footer p strong {
+  font-size: 250%;
+}
+
+
+/* Ваше решение задания №1 */
+
+.ex2 {
+  font-size: 16px;
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+
+/* --------Решение 2-------- */
+.ex2 a, .ex2 u, .ex2 abbr {
+  text-decoration: none;
+  color: black;
+}
+
+.ex2 em, .ex2 i {
+  font-style: normal;  
+}
+
+.ex2 strong {
+  font-weight: normal;
+}
+
+.ex2 code, .ex2 kbd {
+  font-family: helvetica, sans-serif;
+}
+
+.ex2 mark {
+  background-color: #fff;
+}
+
+.ex2 big, .ex2 small {
+  font-size: 16px;
+}
+
+/* Ваше решение задания №2 */
+
+.ex3 {
+  display: block;
+  position: relative;
+  width: 100%;       
+  height: 250px;               /*Решение 3*/
+  border: 2px dotted #000; 
+  margin-bottom: 50px;
+  background: url(http://smotrisport.tv/upload/news/55/21/image_32155.jpg) no-repeat;
+  background-size: 50%;
+  background-position: 100% 50%;
+  background-color: #999;
+  
+  
+}
+
+/* Ваше решение задания №3 */
+
+.ex4 {
+  display: block;
+  position: relative;
+  width: 100%;                  /*Решение 4*/
+  height: 250px;
+  border: 4px solid #000000;
+  margin-bottom: 50px;
+  outline: 3px solid red;
+  outline-offset: -12px;
+  background: url(http://smotrisport.tv/upload/news/55/21/image_32155.jpg);
+  background-size: 100% 100%;
+  
+}
+
+/* Ваше решение задания №4 */
+
+
+.ex5 {
+  font-size: 1.6em;
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+
+/* -----Решение 5---- */
+.ex5 .list1 {
+  list-style-type: upper-roman;
+}
+
+.ex5 .list2 {
+  counter-reset: item;
+  list-style-type: none;
+}
+
+.ex5 .list2 li:before {
+  content: counter(item) ') ';
+  counter-increment: item;
+}
+
+/* Ваше решение задания №5 */
+
+.ex6 {
+  font-size: 1.6em;
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+
+
+/* -----Решение 6-----  */
+.ex6 .list1 {
+  list-style-type: square;
+}
+
+
+.ex6 .list2 {
+  list-style-type: none;
+}
+
+.ex6 .list2 li:before {
+  content: '* ';
+}
+/* Ваше решение задания №6 */
+
+

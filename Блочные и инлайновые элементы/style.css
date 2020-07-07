@@ -1,0 +1,22 @@
+body {
+	margin: 30px;
+	padding: 20px;
+	background-color: #95a7c4;
+}
+
+img {
+	float: left;
+	margin-right: 20px;
+	border: solid black 5px;
+
+}
+
+h1 {
+	text-align: center;
+
+}
+
+p{
+	font-size: 17px;
+}
+

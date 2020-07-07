@@ -1,0 +1,128 @@
+/* Данные стили менять нельзя */
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.calendar ul {
+	font-size: 0;
+	color: #444;
+	width: 280px;
+	box-sizing: content-box;
+}
+.calendar-weekdays {
+	border: 1px solid;
+}
+.calendar-weekdays li {
+	font-weight: bold;
+	background-color: #d3fd02;
+}
+.calendar-weekdays li + li {
+	border-left: 1px solid;
+}
+.calendar ul li {
+	display: inline-block; /*блочные в строку*/
+	width: 40px;
+	height: 40px;
+	line-height: 40px; /*выравниваем по центру по вертикале*/
+	text-align: center; /*все что в li выравниваем по центру*/
+	font-size: 14px;
+}
+.calendar-days {
+	border: 1px solid;
+	border-top: 0;
+	border-bottom: 0;
+}
+.calendar-days li {
+	background-color: #bababa;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+}
+.calendar-days li:nth-child(7n+1) {
+	border-left: 0;
+}
+.calendar-days li:nth-last-child(34)~li {
+	background-color: #fff;
+}
+.calendar-days li:nth-child(32)~li {
+	background-color: #bababa;
+}
+
+.task1, .task2, .task3, .extra-task {
+	padding: 20px;
+}
+.task2 .block {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background-color: blue;
+}
+.extra-task .menu li {
+	list-style: none;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.extra-task .menu li a {
+	text-decoration: none;
+	color: green;
+	font-size: 20px;
+	display: block;
+	border: 1px solid;
+	padding: 5px;
+}
+
+/* Пишите ваш код ниже */
+
+.calendar .calendar-days li:nth-child(7n+7) {
+  background-color: red;
+}
+
+
+.task2 .block:nth-child(1n+9) {
+  display: none;
+
+}
+  
+
+  
+.task3  li {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.task3 .customed-list li:last-child {
+  margin-bottom: 0;
+}
+
+.task3 .customed-list li:first-child {
+  margin-top: 0;
+}
+
+
+.task3 .customed-list li:nth-child(2n+2):before {
+  content: '@';
+}
+
+.task3 .customed-list li:nth-child(2n+1):before {
+  content: '*';
+}
+
+.task3 .customed-list li:nth-child(2n+1) {
+  
+}
+
+
+
+.extra-task .menu li:nth-last-child(n+1) {
+  margin-right: 30px;
+}
+
+.extra-task .menu li:nth-last-child(n+5), .extra-task .menu li:nth-last-child(n+5 ) ~li {
+  margin-right: 10px;
+}
+
+.extra-task .menu li:last-child {
+  margin-right: 0;
+}
+
+

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma');
+
+body,html {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+  
+body {
+  width: 100%;
+} 
+
+header {
+  display: block;  
+  width: 100%;
+  box-sizing: border-box;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: url(https://preview.ibb.co/hqetpJ/header_backgroudn.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+ .block-navigation {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  max-width: 1168px;
+  left: 7%;
+  border-bottom: 1px solid #fff;
+  background-color: rgba(49, 54, 79, 0.6);
+  z-index: 999;
+}
+ 
+  .block-navigation .logo {
+  position: absolute;
+  display: inline-block;
+  margin-top: 15px;
+  
+ }
+  .block-navigation, .block-navigation ul, .block-navigation li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.block-navigation nav {
+  position: absolute;
+  right: 0;
+  margin-top: 15px;
+}
+
+/*Шапка сайта*/
+
+header .text {
+  position: relative;
+  max-width: 800px;
+  padding: 200px 0;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  font-family: 'Michroma', sans-serif;
+}
+
+header .text button {
+  width: 20%;
+  height: 30px;
+  background-color: red;
+  border: none;
+  color: #fff;
+}
+
+.container2 {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+} 
+.container2 .wrapper {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 0 80px 0;
+
+}
+
+.container2 .d {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  padding: 10px 50px;
+  box-sizing: border-box;
+}
+
+.container3 {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0;
+
+}
+
+.container3 .d {
+  width: 25%;
+  height: 200px;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  background: url(https://image.ibb.co/ijn4UJ/photo1.jpg);
+}
+
+
+.container3 .d3 .fon {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  opacity: 0.5;
+  box-sizing: border-box;
+}
+
+.container3 .d3 .fon h3 {
+  color: black;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 80px;
+  text-align: center;
+
+}
+
+.container4 {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 50px 0 50px 0; 
+  background-color: #1f4275;
+  color: #fff;
+}
+
+.container4 .wrapper {
+ max-width: 1168px;
+ margin: 0 auto;
+
+}
+
+.container4 .d {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  height: 100px;
+ 
+
+}
+
+.container4 .d p {
+  color: black;
+}
+.container4 .d2 img {
+  width: 30px;
+  height: 30px;
+  outline: solid 1px #fff;
+}
+
+footer {
+  display: block;
+  background-color: #304666;
+  margin: auto;
+  text-align: center;
+
+}
+
+footer p {
+  margin-top: 0;
+  padding: 10px 0;
+}
+
+.application {
+  width: 100%;
+  height: 900px;
+  background-color: gold;
+}
+
+.mosquito-nets {
+  width: 100%;
+  height: 1200px;
+  background-color: #333;
+}

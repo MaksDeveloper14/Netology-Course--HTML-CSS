@@ -1,0 +1,16 @@
+ .ul-picture {
+  list-style-image: url(https://image.ibb.co/euKs5J/mark.jpg);
+}
+
+.ol-number {
+  list-style-type: decimal-leading-zero;
+}
+
+table {
+  border: solid 1px black;
+}
+
+td {
+  border: solid 1px black;
+}
+

@@ -1,0 +1,115 @@
+body {
+  padding: 40px;
+}
+
+p {
+  max-width: 700px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section:first-of-type {
+  overflow: hidden;
+}
+
+.first-parent, .second-parent {
+  border: 5px solid black;
+  max-width: 700px;
+  clear: fix;    /*Тут что? не понял*/
+}
+
+.first-child {
+  float: left;
+  border: 2px solid red;
+  width: 100px;
+  height: 100px;
+}
+
+/* Мое решение */
+
+.first-parent::after {
+content: " ";
+display: block;
+height: 0;
+width: 0;
+clear: left;
+}
+
+.second-parent {
+  overflow: auto;
+}
+
+/* Ваше решение задания №1 */
+
+.third-parent {
+  position: relative;
+  left: 40px;
+  height: 400px;
+  background: green;
+  max-width: 700px;
+  border: 5px solid black;
+}
+
+.blue {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background: blue;
+  
+  
+}
+
+.yellow {
+  position: absolute;
+  right: -30px;
+  bottom: -30px;
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+}
+
+/* Ваше решение задания №2 */
+
+
+
+.fourth-parent {
+/*float: left;*/
+/*overflow: hidden;*/
+  position: relative;  /* Шаг 1 : Прописываем релатив родителю*/
+  border: 5px solid black;
+}
+
+.fourth-parent div {
+  height: 300px;
+  border: 2px solid red;
+  
+}
+
+.fourth-left {
+  width: 250px;
+  float: left; /* ШАГ: 4 Делаем обтекание - он съехал*/
+  background-color: yellow;
+}
+
+
+.fourth-right {
+  position: absolute; /* ШАГ 2 Задаем абсолют, заполнял родительский                                 контейнер*/
+  top: 0;
+  left: 250px; /*ШАГ 3*/
+  right: 0;
+  bottom: 0; 
+  background-color: blue;
+}
+
+/* Шаг 4 - clearfix */
+.fourth-parent::after { 
+content: ' '; 
+display: block; 
+clear: both; 
+}
+/* Ваше решение дополнительного задания */
+
